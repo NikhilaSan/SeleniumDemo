@@ -23,6 +23,7 @@ public class Loginsteps {
  @When("^User Navigate to LogIn Page$")
  public void user_Navigate_to_LogIn_Page() throws Throwable {
  driver.findElement(By.xpath(".//*[@id='account']/a")).click();
+  System.out.println("Hi");
  }
  
  @When("^User enters UserName and Password$")
